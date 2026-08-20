@@ -26,13 +26,13 @@ public class Zad51410F {
                 double cz_kap = cena / il_rat;
                 double cz_ods = (cena * 0.025) / il_rat;
                 double rata = cz_kap + cz_ods;
-                System.out.format("Wysokość twojej miesięcznej raty wynosi: %.2f. zł", rata);
+                System.out.format("Wysokość twojej miesięcznej raty wynosi: %.2f zł", rata);
             }
             else if(il_rat >= 13 && il_rat <= 24) {
                 double cz_kap = cena / il_rat;
                 double cz_ods = (cena * 0.05) / il_rat;
                 double rata = cz_kap + cz_ods;
-                System.out.format("Wysokość twojej miesięcznej raty wynosi: %.2f. zł", rata);
+                System.out.format("Wysokość twojej miesięcznej raty wynosi: %.2f zł", rata);
             }
             else if(il_rat >= 25 && il_rat <= 48) {
                 double cz_kap = cena / il_rat;
